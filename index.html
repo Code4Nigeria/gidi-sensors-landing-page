@@ -2,18 +2,73 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8" />
-	<title>Gidi sensors</title>
+	<title>Gidi Sensors</title>
 
 	<meta name="description" content="bnbBoss" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
 
     <!--CSS_VENDORS-->
     <link rel="stylesheet" href="styles/app.css" type="text/css" />
+    <link rel="stylesheet" href="styles/ted.css" type="text/css" />
+    <link rel="stylesheet" href="styles/bootstraps/bootstraps.css" type="text/css" />
+    <link rel="stylesheet" href="styles/animate/animate.css" type="text/css" />
+
     <!--CSS VENDORS END-->
 </head>
 <body>
-	
+	<div class="overlay animated fadeIn">
+		<div class="col-md-4 col-md-offset-4 contact-card">
+			<p class="text-right absolute-right clickable" id="close">close</p>
+			<h1>Host a sensor</h1>
+			<input type="text" placeholder="Name">
+			<input type="email" placeholder="E-mail">
+			<button id="send"><b>Send Message</b></button>
 
+			<div class="confirmation">
+				<img src="images/confirmation.png">
+				<p>Message sent successfully </p>
+				<button id="close"><b>CLOSE</b></button>
+			</div>
+		</div>
+	</div>
+	<div class="hero">
+	    <div class="toolbar">
+	    	<!-- <div class="nav-item">Contact us</div> -->
+	    	<div class="nav-item contact" id="contact">Host a sensor</div>
+	    </div>
+
+	    <div class="col-md-6 col-md-offset-1 copy">
+	    	<p>Collect, Visualize, Monitor the air quality in your environment.</p>
+	    	<a href="#how">
+	    		<button class="call-to-action">
+	    			See how
+	    		</button>
+	    	</a>
+	    </div>
+	</div>
+	<div class="how-it-works" id="how">
+		<div class="col-md-12">
+			<h1>How it works</h1>
+			<div class="col-md-4 text-left">
+				<h2>Data collection</h2>
+				<p>Duis sed odio sit amet nibh vhatecursus a sit amet mauris.Morbi acmsan ipsum veli am nec tellus a odio.</p>
+			</div>
+			<div class="col-md-4 text-left">
+				<h2>Visualize</h2>
+				<p>Duis sed odio sit amet nibh vhatecursus a sit amet mauris.Morbi acmsan ipsum veli am nec tellus a odio.</p>
+			</div>
+			<div class="col-md-4 text-left">
+				<h2>Monitor</h2>
+				<p>Duis sed odio sit amet nibh vhatecursus a sit amet mauris.Morbi acmsan ipsum veli am nec tellus a odio.</p>
+			</div>
+		</div>
+	</div>
+	<div class="footer">
+		<button class="col-md-2 col-md-offset-5 contact" id="contact">Become a host</button>
+	</div>
+
+
+<script src="javascript/jquery.js"></script>
 <script src="javascript/app.js"></script>
 </body>
 </html>

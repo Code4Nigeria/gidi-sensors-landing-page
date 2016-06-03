@@ -1,0 +1,30 @@
+.text-center {
+	text-align: center;
+}
+
+.text-left {
+	text-align: right;
+}
+
+.text-right {
+	text-align: right;
+}
+
+button {
+	outline: none;
+}
+
+.clickable {
+	cursor: pointer;
+}
+
+.absolute-right {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit !important;
+}
