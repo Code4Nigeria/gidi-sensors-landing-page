@@ -63,25 +63,37 @@
 .how-it-works {
   width: 100%;
   height: auto;
-  min-height: 500px;
+  min-height: 450px;
   background: #FFF;
   padding: 50px;
+  float: left;
+}
+.how-it-works .div {
+  text-align: justify;
+}
+.how-it-works .div:first-of-type {
+  padding-right: 0;
 }
 .how-it-works h1 {
   text-align: center;
   font-weight: bold;
   font-size: 36px;
   text-transform: uppercase;
-  margin-bottom: 50px;
+  margin-bottom: 70px;
 }
 .how-it-works h2 {
   font-size: 30px;
+  margin-top: 0;
+}
+.how-it-works p {
+  margin-bottom: 0;
 }
 .footer {
   width: 100%;
   height: auto;
   min-height: 100px;
   background: #000;
+  float: left;
 }
 .footer button {
   background: none;

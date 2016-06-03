@@ -10,6 +10,10 @@
 	text-align: right;
 }
 
+.p-r {
+	padding-right: 15px;
+}
+
 button {
 	outline: none;
 }
@@ -31,4 +35,12 @@ a {
 
 .m-b-md {
 	margin-bottom: 50px;
+}
+
+.b-r {
+	border-right: 1px solid #C3C3C3;
+}
+
+.float-left {
+	float: left;
 }
