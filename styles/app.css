@@ -9,6 +9,9 @@
   background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('../images/photo-1444084316824-dc26d6657664.jpeg');
   background-size: cover;
 }
+.map img {
+  margin-left: 10%;
+}
 @media all and (min-width: 300px) and (max-width: 850px) {
   .map img {
     display: none;
