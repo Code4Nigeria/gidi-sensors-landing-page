@@ -28,3 +28,7 @@ a {
 	text-decoration: none;
 	color: inherit !important;
 }
+
+.m-b-md {
+	margin-bottom: 50px;
+}
