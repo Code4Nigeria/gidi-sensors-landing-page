@@ -4,7 +4,7 @@ $(function() {
 	     $('.overlay').show();
 	});
 
-	$('.close').click(function(){
+	$('.closed').click(function(){
 	     $('.overlay').hide();
 	});
 

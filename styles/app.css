@@ -12,7 +12,7 @@
 .map img {
   margin-left: 10%;
 }
-@media all and (min-width: 300px) and (max-width: 850px) {
+@media all and (min-width: 300px) and (max-width: 1000px) {
   .map img {
     display: none;
   }
@@ -65,7 +65,7 @@
   height: auto;
   min-height: 500px;
   background: #FFF;
-  padding-top: 50px;
+  padding: 50px;
 }
 .how-it-works h1 {
   text-align: center;
