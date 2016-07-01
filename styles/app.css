@@ -74,7 +74,6 @@
 .footer {
   width: 100%;
   height: auto;
-  margin-top: 100px;
   background: #000;
   color: grey;
   padding: 50px;
@@ -110,6 +109,11 @@
 .footer .fa-facebook-square {
   color: #3B5998;
   margin-right: 10px;
+}
+.narrative {
+  font-size: 14px;
+  font-weight: normal;
+  margin-bottom: 10px;
 }
 .copy {
   font-size: 49px;
