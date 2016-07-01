@@ -17,6 +17,34 @@
     display: none;
   }
 }
+.tool-bar {
+  height: 100px;
+  background: transparent;
+  position: relative;
+  z-index: 999999;
+  top: 0;
+  left: 0;
+  line-height: 100px;
+}
+.tool-bar li {
+  list-style: none;
+  float: right;
+  color: grey;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 100px;
+  margin-left: 2%;
+}
+.tool-bar li:hover {
+  color: #000;
+}
+.tool-bar .divider {
+  height: 40px;
+  width: 1%;
+  margin-top: 30px;
+}
 .toolbar {
   width: 100%;
   height: 100px;
@@ -35,6 +63,53 @@
   text-transform: uppercase;
   text-align: right;
   cursor: pointer;
+}
+.logo {
+  height: 60px;
+  margin: 10px;
+  margin-top: 20px;
+  margin-left: 0;
+  float: left;
+}
+.footer {
+  width: 100%;
+  height: auto;
+  margin-top: 100px;
+  background: #000;
+  color: grey;
+  padding: 50px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.footer img {
+  height: 50px;
+  margin: 10px;
+}
+.footer hr {
+  border: none;
+  border-top: 1px solid #E5E5E4;
+  opacity: 0.5;
+}
+.footer div {
+  min-height: 250px;
+}
+.footer div:nth-of-type(2) {
+  text-transform: none;
+}
+.footer .partners {
+  min-height: 100px;
+}
+.footer .footer-header {
+  color: #fff;
+  font-weight: 400;
+}
+.footer .fa-twitter-square {
+  color: skyblue;
+  margin-right: 10px;
+}
+.footer .fa-facebook-square {
+  color: #3B5998;
+  margin-right: 10px;
 }
 .copy {
   font-size: 49px;
